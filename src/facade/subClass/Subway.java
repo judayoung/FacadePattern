@@ -2,7 +2,7 @@ package facade.subClass;
 
 public class Subway implements Transport{
 
-    public static String name = "subway";
+    private String name = "subway";
     private int timeOnTransport;
 
     public Subway(int timeOnTransport) {

@@ -7,7 +7,7 @@ public class Go {
     }
 
     public void takeTransport(Transport transport){
-        System.out.println("take the "+transport.name+" for "+transport.getTimeOnTransport()+" minutes...");
+        System.out.println("take the "+transport.getName()+" for "+transport.getTimeOnTransport()+" minutes...");
     }
 
     public void arrive(){

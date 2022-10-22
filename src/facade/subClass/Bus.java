@@ -2,8 +2,8 @@ package facade.subClass;
 
 public class Bus implements Transport{
 
-    String name;
-    int timeOnTransport;
+    private String name = "bus";
+    private int timeOnTransport;
 
     public Bus(int timeOnTransport) {
         this.timeOnTransport = timeOnTransport;
